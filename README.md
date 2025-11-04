@@ -32,3 +32,12 @@ Public dataset: https://raw.githubusercontent.com/datasciencedojo/datasets/maste
 ## Survival by Passenger Class (Pclass)
 ![Survival by Class](download.png)
 
+## ✅ Model Accuracy
+
+| Model                | Accuracy |
+|---------------------|----------|
+| Logistic Regression | 0.80     |
+
+![Model Accuracy](model_output.png)
+
+
