@@ -26,8 +26,9 @@ Public dataset: https://raw.githubusercontent.com/datasciencedojo/datasets/maste
 ## Next steps
 - Build a classification model (Logistic Regression / Random Forest)
 - Deploy model demo (Streamlit)
-
-![Survival by Sex](download.png)
+- 
+## Survival by Gender
+![Survival by Sex](survivegender.png)
 
 ## Survival by Passenger Class (Pclass)
 ![Survival by Class](download.png)
