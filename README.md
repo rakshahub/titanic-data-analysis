@@ -1,52 +1,103 @@
-# Titanic Data Analysis
-Data Analysis on Titanic dataset using Python (Pandas, Matplotlib)
+# Titanic Survival Prediction — Data Science + ML Project
 
-## Objective
-Analyze Titanic passenger data to find how age, gender and class affected survival.
+## Overview
+This project analyzes the Titanic dataset and builds a machine learning model to predict whether a passenger would survive based on features like:
+- Passenger class
+- Gender
+- Age
+- Fare
 
-## How I did it
-- Data cleaning with Pandas (handled missing Age, dropped missing Embarked)
-- Exploratory Data Analysis (survival rates by Sex, Pclass, Age groups)
-- Visualizations saved in `/images`
+The goal is to understand how data science + machine learning can derive insights from real-world historical data.
 
-## Key Insights
-- Women had a significantly higher survival rate than men.
-- Higher class passengers survived more often.
-- Children had relatively better survival rate.
+---
 
-## Files
-- `titanic.ipynb` — full notebook (EDA & code)
-- `requirements.txt` — packages used
-- `/images` — plots (PNG files)
+## 🛠 Tech Stack
+| Area | Tools Used |
+|------|------------|
+| Language | Python |
+| Libraries | Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn |
+| Platform | Google Colab |
+| Version Control | Git & GitHub |
 
-## Dataset
-Public dataset: https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv
+---
 
-## Next steps
-- Build a classification model (Logistic Regression / Random Forest)
-- Deploy model demo (Streamlit)
-- 
-## Survival by Gender
-![Survival by Sex](survivegender.png)
+## Exploratory Data Analysis (EDA)
 
-## Survival by Passenger Class (Pclass)
-![Survival by Class](download.png)
+### 🔹 Survival Rate by Gender
+Women had a much higher survival rate than men.
 
-## Model Accuracy
+![Survival by Sex](survival_by_sex.png)
 
-| Model                | Accuracy |
-|---------------------|----------|
-| Logistic Regression | 0.80     |
+### 🔹 Survival Rate by Passenger Class
+Passengers in **1st class** had better survival chances.
 
-![Model Accuracy](model_output.png)
+![Survival by Class](survival_by_class.png)
 
-## 🔮 Prediction Example
-Input:
-- Pclass = 3
-- Sex = female
-- Age = 22
-- Fare = 7.25
+---
 
-Output:
-Passenger would SURVIVE
+## Machine Learning Model
+
+**Algorithm used:** Logistic Regression  
+**Model Accuracy:** `~80%`
+
+| Model | Accuracy |
+|--------|----------|
+| Logistic Regression | ✅ ~0.80 |
+
+---
+
+## Prediction Example
+
+**Input:**
+```
+Pclass = 3  
+Sex = female  
+Age = 22  
+Fare = 7.25
+```
+
+**Output:**  
+✅ Passenger would SURVIVE
+
+
+## 📊 Visualizations
+
+| Plot | Description |
+|------|-------------|
+| `survival_by_sex.png` | Females have higher survival chance than males |
+| `survival_by_class.png` | Passengers in 1st class had higher survival rate |
+
+---
+
+## ✅ Technologies Used
+| Category | Tools |
+|----------|-------|
+| Language | Python |
+| Libraries | pandas, numpy, matplotlib, seaborn, scikit-learn |
+| ML Model | Logistic Regression |
+| IDE / Notebook | Jupyter Notebook / VS Code |
+
+---
+
+## 🎯 Results
+| Metric | Value |
+|--------|-------|
+| Model Used | Logistic Regression |
+| Accuracy | ~80% |
+
+---
+
+## ⭐ Conclusion
+- Survival rate depends strongly on **gender and passenger class**
+- Females and 1st class passengers were more likely to survive
+- Machine learning model predicts survival effectively using basic features
+
+---
+
+## 👤 Author
+**Rakshatha Prabhakaran — M.Tech CSE (Data Science | ML | Cloud)**
+Project prepared for academic demonstration and portfolio usage.
+
+---
+
 
