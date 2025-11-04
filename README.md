@@ -1,6 +1,6 @@
 # Titanic Survival Prediction — Data Science + ML Project
 
-## Overview
+## 📌 Overview
 This project analyzes the Titanic dataset and builds a machine learning model to predict whether a passenger would survive based on features like:
 - Passenger class
 - Gender
@@ -42,7 +42,7 @@ Passengers in **1st class** had better survival chances.
 
 | Model | Accuracy |
 |--------|----------|
-| Logistic Regression | ✅ ~0.80 |
+| Logistic Regression |~0.80 |
 
 ---
 
@@ -57,7 +57,7 @@ Fare = 7.25
 ```
 
 **Output:**  
-✅ Passenger would SURVIVE
+Passenger would SURVIVE
 
 
 ## 📊 Visualizations
