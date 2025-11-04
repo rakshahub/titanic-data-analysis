@@ -27,4 +27,4 @@ Public dataset: https://raw.githubusercontent.com/datasciencedojo/datasets/maste
 - Build a classification model (Logistic Regression / Random Forest)
 - Deploy model demo (Streamlit)
 
-![Survival by Sex](survival_by_sex.png)
+![Survival by Sex](download.png)
