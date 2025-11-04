@@ -1,7 +1,6 @@
-# titanic-data-analysis
+# Titanic Data Analysis
 Data Analysis on Titanic dataset using Python (Pandas, Matplotlib)
 
-# Titanic Data Analysis
 ## Objective
 Analyze Titanic passenger data to find how age, gender and class affected survival.
 
