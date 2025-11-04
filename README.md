@@ -32,7 +32,7 @@ Public dataset: https://raw.githubusercontent.com/datasciencedojo/datasets/maste
 ## Survival by Passenger Class (Pclass)
 ![Survival by Class](download.png)
 
-## ✅ Model Accuracy
+## Model Accuracy
 
 | Model                | Accuracy |
 |---------------------|----------|
@@ -40,4 +40,13 @@ Public dataset: https://raw.githubusercontent.com/datasciencedojo/datasets/maste
 
 ![Model Accuracy](model_output.png)
 
+## 🔮 Prediction Example
+Input:
+- Pclass = 3
+- Sex = female
+- Age = 22
+- Fare = 7.25
+
+Output:
+Passenger would SURVIVE
 
