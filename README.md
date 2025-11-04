@@ -28,3 +28,7 @@ Public dataset: https://raw.githubusercontent.com/datasciencedojo/datasets/maste
 - Deploy model demo (Streamlit)
 
 ![Survival by Sex](download.png)
+
+## Survival by Passenger Class (Pclass)
+![Survival by Class](survival_by_class.png)
+
